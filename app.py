@@ -16,7 +16,7 @@ BUCKET_NAME = st.secrets['bucket_name']
 credentials = service_account.Credentials.from_service_account_info(
     st.secrets["gcs_connections"]) 
 
-vertexai.init(project=PROJECT_ID, location="us-central1")
+vertexai.init(project=PROJECT_ID, location="us-central1", credentials=credentials)
 multimodal_model = GenerativeModel("gemini-1.0-pro-vision")
 
 
