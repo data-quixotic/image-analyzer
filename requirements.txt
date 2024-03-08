@@ -1,0 +1,6 @@
+gcsfs==2024.2.0
+st-files-connection
+streamlit==0.1.0
+google-cloud==0.34.0
+vertexai==0.0.1
+google-cloud-aiplatform>=1.38
