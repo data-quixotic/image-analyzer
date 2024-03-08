@@ -1,6 +1,7 @@
 gcsfs==2024.2.0
 st-files-connection
 streamlit>=1.32.0
+streamlit-authenticator>= 0.3.1
 google-cloud==0.34.0
 vertexai==0.0.1
 google-cloud-aiplatform>=1.38
